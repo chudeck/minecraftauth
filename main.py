@@ -333,6 +333,7 @@ async def setup_auth(ctx, option=None, id_value=None):
     else:
         await ctx.send("사용법: !마크인증 [역할/로그] [ID]")
 
+access_token = os.environ["Bot_token"]
 # 봇 실행
 if __name__ == "__main__":
-    bot.run(')
+    bot.run('access_token')
